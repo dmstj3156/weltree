@@ -118,7 +118,7 @@ body{font-family: 'Nanum Gothic', sans-serif;}
 }
 article .textLayout{
     display: flex;
-    padding: 40px 30px; 
+    padding: 60px 30px; 
     background-color: #f9f9f9;
     margin-top: 42px;
 }
@@ -133,7 +133,7 @@ article .textLayout .text{
     color: var(--sub-color);
 }
 article h4{
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     line-height: 1.5em;
 }
 article p{
