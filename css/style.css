@@ -222,12 +222,13 @@
     color: #fff;
     padding-top: 25px;
     padding-bottom: 25px;
-    width: 1200px
-    margin: 0 auto;
+    
+    width: 100%;
     text-align: center;
   }
   footer .container{
-    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
   }
   .footerMenu > li {
     display: inline-block;
@@ -250,3 +251,39 @@
   footer .address {
     margin-bottom: 5px;
   }
+@media screen and (max-width: 1024px) {
+    body{
+       min-width: 1200px;
+       height: 100%;
+    }
+    header{
+        width: 100%;
+        position: relative;
+    }
+    footer{
+      position: relative;
+      width: 100%;
+    }
+    footer .container{
+      width: 698px;
+      margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1024px) {
+  body{
+     min-width: 1200px;
+     height: 100%;
+  }
+  header{
+      width: 100%;
+      position: relative;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+  }
+  footer .container{
+    width: 698px;
+    margin: 0 auto;
+  }
+}

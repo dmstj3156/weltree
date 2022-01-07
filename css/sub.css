@@ -137,7 +137,7 @@ article h4{
     line-height: 1.5em;
 }
 article p{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     line-height: 28px;
 }
 article p:last-child{
@@ -183,4 +183,13 @@ b{
 #sub5_1 article .location ul li > i{
     margin-right: 8px;
     color: #7ec255;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        max-width: 1024px;
+        min-width: 768px;
+    }
+    header{
+        width: 100%;
+    }
 }
